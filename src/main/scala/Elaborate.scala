@@ -14,10 +14,9 @@ object Elaborate extends App {
     ).reduce(_ + "," + _)
   )
 
-  // emitVerilog(new gcd.GCD(), Array("--target-dir", "verilog"))
-  // emitVerilog(new alu.Alu(), Array("--target-dir", "verilog"))
-  //  chisel3.emitVerilog(new gcd.GCD(), firtoolOptions)
-  ChiselStage.emitSystemVerilogFile(new gcd.GCD(), args, firtoolOptions)
-  ChiselStage.emitSystemVerilogFile(new alu.Alu(), args, firtoolOptions)
+  // ChiselStage.emitSystemVerilogFile(new gcd.GCD(), args, firtoolOptions)
+  // ChiselStage.emitSystemVerilogFile(new alu.Alu(), args, firtoolOptions)
+  // ChiselStage.emitSystemVerilogFile(new simple.led(2,0.2f), args, firtoolOptions)
+  ChiselStage.emitSystemVerilogFile(new simple.Top(), args, firtoolOptions)
 
 }
