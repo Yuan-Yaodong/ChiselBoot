@@ -70,12 +70,13 @@
             "/Users/yuanyaodong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.5-10/zstd-jni-1.5.5-10.jar",
             "/Users/yuanyaodong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar",
             "/Users/yuanyaodong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.jar",
-            "/Users/yuanyaodong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar"
+            "/Users/yuanyaodong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar",
+            "/Users/yuanyaodong/Documents/GitHub/ChiselBoot/src/compile-resources"
         ],
         "out": "/Users/yuanyaodong/Documents/GitHub/ChiselBoot/.bloop/out/ChiselBoot",
         "classesDir": "/Users/yuanyaodong/Documents/GitHub/ChiselBoot/.bloop/out/ChiselBoot/classes",
         "resources": [
-            "/Users/yuanyaodong/Documents/GitHub/ChiselBoot/src/src/main/resources"
+            "/Users/yuanyaodong/Documents/GitHub/ChiselBoot/src/compile-resources"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -114,6 +115,7 @@
                 
             ],
             "classpath": [
+                "/Users/yuanyaodong/Documents/GitHub/ChiselBoot/.bloop/out/ChiselBoot/classes",
                 "/Users/yuanyaodong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/chipsalliance/chisel_2.13/6.5.0/chisel_2.13-6.5.0.jar",
                 "/Users/yuanyaodong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.14/scala-library-2.13.14.jar",
                 "/Users/yuanyaodong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.14/scala-reflect-2.13.14.jar",
@@ -174,6 +176,7 @@
                 "/Users/yuanyaodong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar"
             ],
             "resources": [
+                "/Users/yuanyaodong/Documents/GitHub/ChiselBoot/src/compile-resources",
                 "/Users/yuanyaodong/Documents/GitHub/ChiselBoot/src/src/main/resources"
             ]
         },

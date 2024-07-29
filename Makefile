@@ -1,4 +1,4 @@
-BUILD_DIR = ./verilog
+BUILD_DIR = ./generated
 
 PRJ = ChiselBoot
 
@@ -7,7 +7,7 @@ test:
 
 verilog:
 
-	mill  $(PRJ).runMain Elaborate
+	mill  $(PRJ).runMain Elaborate --target-dir $(BUILD_DIR)
 
 help:
 	mill -i $(PRJ).runMain Elaborate --help

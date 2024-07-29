@@ -4,11 +4,12 @@ import mill.define.Sources
 import mill.modules.Util
 import mill.scalalib.TestModule.ScalaTest
 import scalalib._
+import scalafmt._
 // support BSP
 import mill.bsp._
 
 object ChiselBoot extends SbtModule { m =>
-  val useChisel3 = true
+  val useChisel3 = false
   override def millSourcePath = os.pwd / "src"
   override def scalaVersion = if (useChisel3) "2.13.10" else "2.13.14"
   override def scalacOptions = Seq(
